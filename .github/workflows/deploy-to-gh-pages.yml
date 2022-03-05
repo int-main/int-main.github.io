@@ -12,6 +12,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          unset CI
           npm install
           npm run-script build
 
