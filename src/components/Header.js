@@ -48,10 +48,10 @@ function Header(props) {
                     Proficient to work in an Agile environment with team work and colaboration,
                     leading to the rapid development of software in an organization.
                     <br /><br />
-                    Currently, I'm working as an engineer at <Link href="https://aptean.com"
+                    Currently, I'm working as a software engineer at <Link href="https://outplayhq.com/"
                         target="_blank" rel="noreferrer"
                         fontWeight={useColorModeValue('medium', 'semibold')}
-                        color={buttonColor}>Aptean</Link>, where I am bulding ERP products in SaaS model.
+                        color={buttonColor}>Outplay</Link>.
                 </Container>
                 <br />
                 <Button variant="outline" color={buttonColor} bg={buttonBgColor} _hover={{ bg: buttonBgColorHover, color: buttonColorHover }} onClick={
