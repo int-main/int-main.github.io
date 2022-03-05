@@ -16,6 +16,66 @@ function WorkHistory() {
                 <Container mt='80' color={mainTextColor} fontSize='lg' fontWeight='normal'>
                     <br />
                     <HStack>
+                        <Link href="http://outplayhq.com/"
+                            target="_blank" rel="noreferrer"
+                            fontWeight='semibold'
+                            fontSize='lg'
+                            color={secondaryCyanTextColor}
+                        >
+                            Outplay
+                        </Link>
+                        <Icon as={ImLocation2} />
+                        <Text>Hyderabad, India (Remote)</Text>
+                    </HStack>
+                    <Text color={secondaryBlueTextColor}>Software Engineer (Aug 2021 - Present)</Text>
+                    <Container>
+                        <List spacing='3' w='100%' mt='4'>
+                            <ListItem>
+                                <Flex>
+                                    <ListIcon as={FaCaretRight} color={buttonColor} mt='1' />
+                                    <Text flex='1'>
+                                        Developed REST APIs in C# (.NET Core), PostgreSQL.
+                                    </Text>
+                                </Flex>
+                            </ListItem>
+                            <ListItem>
+                                <Flex>
+                                    <ListIcon as={FaCaretRight} color={buttonColor} mt='1' />
+                                    <Text flex='1'>
+                                        Implemented Okta SSO into the application using SAML.
+                                    </Text>
+                                </Flex>
+                            </ListItem>
+                            <ListItem>
+                                <Flex>
+                                    <ListIcon as={FaCaretRight} color={buttonColor} mt='1' />
+                                    <Text flex='1'>
+                                        Migrated the application from .NET framework to .NET Core.
+                                    </Text>
+                                </Flex>
+                            </ListItem>
+                            <ListItem>
+                                <Flex>
+                                    <ListIcon as={FaCaretRight} color={buttonColor} mt='1' />
+                                    <Text flex='1'>
+                                        Integrated external applications with the system like Calendly.
+                                    </Text>
+                                </Flex>
+                            </ListItem>
+                            <ListItem>
+                                <Flex>
+                                    <ListIcon as={FaCaretRight} color={buttonColor} mt='1' />
+                                    <Text flex='1'>
+                                        Written microservices using Golang, Kafka, Redis to process various events of the application.
+                                    </Text>
+                                </Flex>
+                            </ListItem>
+                        </List>
+                    </Container>
+                </Container>
+                <Container mt='80' color={mainTextColor} fontSize='lg' fontWeight='normal'>
+                    <br />
+                    <HStack>
                         <Link href="https://aptean.com"
                             target="_blank" rel="noreferrer"
                             fontWeight='semibold'
@@ -27,7 +87,7 @@ function WorkHistory() {
                         <Icon as={ImLocation2} />
                         <Text>Bangalore, India</Text>
                     </HStack>
-                    <Text color={secondaryBlueTextColor}>Associate Software Development Engineer (Aug 2019 - Present)</Text>
+                    <Text color={secondaryBlueTextColor}>Associate Software Development Engineer (Aug 2019 - Aug 2021)</Text>
                     <Container>
                         <List spacing='3' w='100%' mt='4'>
                             <ListItem>
@@ -50,7 +110,7 @@ function WorkHistory() {
                                 <Flex>
                                     <ListIcon as={FaCaretRight} color={buttonColor} mt='1' />
                                     <Text flex='1'>
-                                        Implemented Single Sign On (SSO) architecture in the application with SAML and OpenID Connect protocols using Azure B2C Identify Experience Framework.
+                                        Implemented Single Sign On (SSO) architecture in the application with SAML and OpenID Connect protocols using Azure B2C Identity Experience Framework.
                                     </Text>
                                 </Flex>
                             </ListItem>

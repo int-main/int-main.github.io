@@ -26,6 +26,9 @@ function Profile() {
                 <Container mt='80' color={mainTextColor} fontSize='lg' fontWeight='normal'>
                     <br />I started my web development career in 2019 when I was hired by Aptean with PPO opportunity.
                     I worked as an intern for 1 year and then got converted to full time employee after my graduation.
+                    In Aptean, I developed a project from scratch using .NET Core, C#, ExtJs, Microsoft SQL Server.
+                    Currently I am working at Outplay where I am developing features and integrations for the Outplay sales engagement platform 
+                    using C#, .NET Core, PostgreSQL, Angular, Golang.
                     <br /><br />Here are few technologies I've been working on recently:
                     <Text mt='4' mb='4' color={secondaryCyanTextColor} fontWeight='semibold'>Programming & Markup Languages:</Text>
                     <List spacing='3' w='100%'>
@@ -50,7 +53,7 @@ function Profile() {
                                 <ListIcon as={FaCaretRight} color={buttonColor} />
                                 <Text>Python</Text>
                                 <Spacer></Spacer>
-                                {getProficiency(5)}
+                                {getProficiency(4)}
                             </HStack>
                         </ListItem>
                         <ListItem>
@@ -80,17 +83,9 @@ function Profile() {
                         <ListItem>
                             <HStack>
                                 <ListIcon as={FaCaretRight} color={buttonColor} />
-                                <Text>JSON</Text>
+                                <Text>Go</Text>
                                 <Spacer></Spacer>
-                                {getProficiency(5)}
-                            </HStack>
-                        </ListItem>
-                        <ListItem>
-                            <HStack>
-                                <ListIcon as={FaCaretRight} color={buttonColor} />
-                                <Text>XML</Text>
-                                <Spacer></Spacer>
-                                {getProficiency(5)}
+                                {getProficiency(2)}
                             </HStack>
                         </ListItem>
                         <ListItem>
@@ -102,7 +97,7 @@ function Profile() {
                             </HStack>
                         </ListItem>
                     </List>
-                    <Text mt='4' mb='4' color={secondaryCyanTextColor} fontWeight='semibold'>Libraries & Frameworks:</Text>
+                    <Text mt='4' mb='4' color={secondaryCyanTextColor} fontWeight='semibold'>Libraries, Frameworks & Databases:</Text>
                     <List spacing='3' w='100%'>
                         <ListItem>
                             <HStack>
@@ -123,6 +118,14 @@ function Profile() {
                         <ListItem>
                             <HStack>
                                 <ListIcon as={FaCaretRight} color={buttonColor} />
+                                <Text>Angular</Text>
+                                <Spacer></Spacer>
+                                {getProficiency(3)}
+                            </HStack>
+                        </ListItem>
+                        <ListItem>
+                            <HStack>
+                                <ListIcon as={FaCaretRight} color={buttonColor} />
                                 <Text>Entity Framework Core</Text>
                                 <Spacer></Spacer>
                                 {getProficiency(4)}
@@ -132,6 +135,14 @@ function Profile() {
                             <HStack>
                                 <ListIcon as={FaCaretRight} color={buttonColor} />
                                 <Text>SQL Server</Text>
+                                <Spacer></Spacer>
+                                {getProficiency(4)}
+                            </HStack>
+                        </ListItem>
+                        <ListItem>
+                            <HStack>
+                                <ListIcon as={FaCaretRight} color={buttonColor} />
+                                <Text>PostgreSQL</Text>
                                 <Spacer></Spacer>
                                 {getProficiency(4)}
                             </HStack>
@@ -191,6 +202,14 @@ function Profile() {
                             <HStack>
                                 <ListIcon as={FaCaretRight} color={buttonColor} />
                                 <Text>SQL Server Management Studio</Text>
+                                <Spacer></Spacer>
+                                {getProficiency(3)}
+                            </HStack>
+                        </ListItem>
+                        <ListItem>
+                            <HStack>
+                                <ListIcon as={FaCaretRight} color={buttonColor} />
+                                <Text>Okta SSO Platform</Text>
                                 <Spacer></Spacer>
                                 {getProficiency(3)}
                             </HStack>
